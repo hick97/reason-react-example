@@ -1,2 +1,2 @@
 # reason-react-example
-An introductory approach about ReasonML, ReactReason &amp; ReScript
+An introductory approach about ReasonML, ReasonReact &amp; ReScript
