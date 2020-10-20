@@ -79,8 +79,9 @@ let make = () => {
          ),
        )}
     </ul>
+    <label htmlFor="task-input"> {React.string("Write a task:")} </label>
     <input
-      name="task"
+      name="task-input"
       style=ToDoStyles.inputStyle
       value=input
       onChange={_event => setInput(ReactEvent.Form.target(_event)##value)}

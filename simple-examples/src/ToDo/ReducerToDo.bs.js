@@ -95,9 +95,11 @@ function ReducerToDo(Props) {
                                                           });
                                               })
                                           }, "REMOVE"));
-                          }), state.taskList))), React.createElement("input", {
+                          }), state.taskList))), React.createElement("label", {
+                  htmlFor: "task-input"
+                }, "Write a task:"), React.createElement("input", {
                   style: ToDoStyles$MyReactApp.inputStyle,
-                  name: "task",
+                  name: "task-input",
                   value: input,
                   onChange: (function (_event) {
                       return Curry._1(setInput, _event.target.value);
