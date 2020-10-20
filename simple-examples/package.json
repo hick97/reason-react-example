@@ -6,7 +6,7 @@
     "start": "bsb -make-world -w -ws _ ",
     "clean": "bsb -clean-world",
     "server": "moduleserve ./ --port 8000",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run build && jest"
   },
   "keywords": [
     "BuckleScript",
@@ -21,7 +21,10 @@
     "reason-react": ">=0.7.1"
   },
   "devDependencies": {
+    "@glennsl/bs-jest": "^0.5.1",
+    "bs-jest-dom": "^4.1.1",
     "bs-platform": "^8.2.0",
+    "bs-react-testing-library": "^0.7.3",
     "moduleserve": "^0.9.0"
   }
 }
