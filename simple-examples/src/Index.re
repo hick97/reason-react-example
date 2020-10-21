@@ -34,11 +34,6 @@ ReactDOMRe.render(
 );
 
 ReactDOMRe.render(
-  <ReducerFromReactJSDocs />,
-  makeContainer("Reducer From ReactJS Docs"),
-);
-
-ReactDOMRe.render(
   <ReasonUsingJSUsingReason />,
   makeContainer("Reason Using JS Using Reason"),
 );
@@ -46,3 +41,5 @@ ReactDOMRe.render(
 ReactDOMRe.render(<ToDo />, makeContainer("TODO list"));
 
 ReactDOMRe.render(<ReducerToDo />, makeContainer("TODO list with Reducer"));
+
+ReactDOMRe.render(<Counter />, makeContainer("Simple counter"));
