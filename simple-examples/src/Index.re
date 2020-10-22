@@ -38,8 +38,13 @@ ReactDOMRe.render(
   makeContainer("Reason Using JS Using Reason"),
 );
 
-ReactDOMRe.render(<ToDo />, makeContainer("TODO list"));
+//ReactDOMRe.render(<ToDo />, makeContainer("Simple ToDo list"));
 
-ReactDOMRe.render(<ReducerToDo />, makeContainer("TODO list with Reducer"));
+ReactDOMRe.render(<ReducerToDo />, makeContainer("ToDo list with Reducer"));
 
-ReactDOMRe.render(<Counter />, makeContainer("Simple counter"));
+//ReactDOMRe.render(<Counter />, makeContainer("Simple counter"));
+
+ReactDOMRe.render(
+  <CounterWithReducer />,
+  makeContainer("Counter with reducer"),
+);
