@@ -3,9 +3,6 @@ open Expect;
 open ReactTestingLibrary;
 
 describe("<ReducerToDo />", () => {
-  test("should render the ReducerToDo component", () => {
-    <ReducerToDo /> |> render |> expect |> toMatchSnapshot
-  });
   test("should print a error message when input is empty", () => {
     let result = <ReducerToDo /> |> render;
 
@@ -17,5 +14,5 @@ describe("<ReducerToDo />", () => {
     |> getByText(~matcher=`Str("This field is required!"))
     |> expect
     |> toMatchSnapshot;
-  });
+  })
 });
