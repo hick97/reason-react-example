@@ -47,15 +47,15 @@ let make = () => {
   <div>
     <p> {React.string("Counter: " ++ string_of_int(state.count))} </p>
     <button style=CounterStyles.buttonStyle onClick=handleIncrement>
-      {React.string("+")}
+      {React.string("+1")}
     </button>
     <button
       style=CounterStyles.buttonStyle
       onClick={_ => dispatch(Increment(100))}>
-      {React.string("++")}
+      {React.string("+100")}
     </button>
     <button style=CounterStyles.buttonStyle onClick=handleDecrement>
-      {React.string("-")}
+      {React.string("-1")}
     </button>
     <button style=CounterStyles.buttonStyle onClick=handleReset>
       {React.string("Reset")}
