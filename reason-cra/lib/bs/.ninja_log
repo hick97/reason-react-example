@@ -1,0 +1,28 @@
+# ninja log v5
+# start_time end_time mtime command hash
+1	18	1597935728349218303	ReasonCra.cmi	24117330a7901214
+0	28	1597935728360992531	src/reason/Button.reast	826e8ad804e31e10
+28	35	1597935728367906233	src/reason/Button.d	7f180c6e9f26054e
+35	75	1597935728407602129	src/reason/Button-ReasonCra.cmj	fb9d2598b0c04b87
+35	75	1597935728407602129	src/reason/Button-ReasonCra.cmi	fb9d2598b0c04b87
+35	75	1597935728407602129	/Users/hick/Github/work/reason-playground/reason-cra/src/reason/Button.bs.js	fb9d2598b0c04b87
+2	8	1597935728360992531	src/reason/Button.d	4a8001edbeb71dd1
+2	15	1597935740520952078	ReasonCra.cmi	24117330a7901214
+1	29	1597935740535364207	src/reason/Text.reast	9599f9fcc05f28f2
+29	42	1597935740548683067	src/reason/Text.d	cf8dc5e3b1f91a1a
+42	63	1597935740568638221	src/reason/Text-ReasonCra.cmj	c589a4123da8a248
+42	63	1597935740568638221	src/reason/Text-ReasonCra.cmi	c589a4123da8a248
+42	63	1597935740568638221	/Users/hick/Github/work/reason-playground/reason-cra/src/reason/Text.bs.js	c589a4123da8a248
+15	85	1597935740520952078	src/reason/Button-ReasonCra.cmj	fb9d2598b0c04b87
+15	85	1597935740520952078	src/reason/Button-ReasonCra.cmi	fb9d2598b0c04b87
+15	85	1597935740520952078	/Users/hick/Github/work/reason-playground/reason-cra/src/reason/Button.bs.js	fb9d2598b0c04b87
+0	24	1597935770715519122	src/reason/Text.reast	9599f9fcc05f28f2
+24	32	1597935770715519122	src/reason/Text.d	cf8dc5e3b1f91a1a
+32	52	1597935770743237497	src/reason/Text-ReasonCra.cmj	c589a4123da8a248
+32	52	1597935770743237497	src/reason/Text-ReasonCra.cmi	c589a4123da8a248
+32	52	1597935770743237497	/Users/hick/Github/work/reason-playground/reason-cra/src/reason/Text.bs.js	c589a4123da8a248
+0	18	1597935728360992531	src/reason/Button.d	7f180c6e9f26054e
+2	66	1597935841503069659	ReasonCra.cmi	24117330a7901214
+66	115	1597935841503069659	src/reason/Button-ReasonCra.cmj	fb9d2598b0c04b87
+66	115	1597935841503069659	src/reason/Button-ReasonCra.cmi	fb9d2598b0c04b87
+66	115	1597935841503069659	/Users/hick/Github/work/reason-playground/reason-cra/src/reason/Button.bs.js	fb9d2598b0c04b87
