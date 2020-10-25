@@ -17,6 +17,10 @@ On this repository you can find an introductory examples of ReasonReact using `b
 - Information about how create a project using `create-react-app` you can find [here](https://create-react-app.dev/docs/getting-started/).
 - Information about how add Reason to an existing React.js Project (Create React App, Next.js, etc.) you can find [here](https://reasonml.github.io/reason-react/docs/en/installation).
 
+## ReasonReact using create-next-app
+
+- You can find a more complete project using ReasonML, ReasonReact and `create-next-app` [here](https://github.com/danilobjr/proffy-web).
+
 ## Author
 
 👤 **Henrique Augusto**
