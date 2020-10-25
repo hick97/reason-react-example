@@ -27,27 +27,4 @@ let makeContainer = text => {
   content;
 };
 
-// All 4 examples.
-ReactDOMRe.render(
-  <BlinkingGreeting> {React.string("Hello!")} </BlinkingGreeting>,
-  makeContainer("Blinking Greeting"),
-);
-
-ReactDOMRe.render(
-  <ReasonUsingJS />,
-  makeContainer("Reason Using JS Using Reason"),
-);
-
-//ReactDOMRe.render(<ToDo />, makeContainer("Simple ToDo list"));
-
-ReactDOMRe.render(
-  <ToDoWithReducer />,
-  makeContainer("ToDo list with Reducer"),
-);
-
-//ReactDOMRe.render(<Counter />, makeContainer("Simple counter"));
-
-ReactDOMRe.render(
-  <CounterWithReducer />,
-  makeContainer("Counter with reducer"),
-);
+ReactDOMRe.render(<App />, makeContainer("Example"));
