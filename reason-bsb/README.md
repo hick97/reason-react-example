@@ -1,6 +1,7 @@
 # ReasonReact Template & Examples
 
 This is:
+
 - A template for your new ReasonReact project.
 - A collection of thin examples illustrating ReasonReact usage.
 - Extra helper documentation for ReasonReact (full ReasonReact docs [here](https://reasonml.github.io/reason-react/)).
@@ -12,10 +13,19 @@ The point of this template and examples is to let you understand and personally 
 ## Run
 
 ```sh
-npm install
-npm run server
+# you can use npm too
+yarn install
+yarn server
 # in a new tab
-npm start
+yarn start
+```
+
+## Run Tests
+
+```sh
+yarn test
+# cleaning snapshots
+yarn test -u
 ```
 
 Open a new web page to `http://localhost:8000/`. Change any `.re` file in `src` to see the page auto-reload. **You don't need any bundler when you're developing**!
@@ -24,20 +34,20 @@ Open a new web page to `http://localhost:8000/`. Change any `.re` file in `src` 
 
 # Features Used
 
-|                           | Blinking Greeting | Reducer from ReactJS Docs | Fetch Dog Pictures | Reason Using JS Using Reason |
-|---------------------------|-------------------|---------------------------|--------------------|------------------------------|
-| No props                  |                   | ✓                         |                    |                              |
-| Has props                 |                   |                           |                    | ✓                            |
-| Children props            | ✓                 |                           |                    |                              |
-| No state                  |                   |                           |                    | ✓                            |
-| Has state                 | ✓                 |                           |  ✓                 |                              |
-| Has state with useReducer |                   | ✓                         |                    |                              |
-| ReasonReact using ReactJS |                   |                           |                    | ✓                            |
-| ReactJS using ReasonReact |                   |                           |                    | ✓                            |
-| useEffect                 | ✓                 |                           |  ✓                 |                              |
-| Dom attribute             | ✓                 | ✓                         |                    | ✓                            |
-| Styling                   | ✓                 | ✓                         |  ✓                 | ✓                            |
-| React.array               |                   |                           |  ✓                 |                              |
+|                           | Blinking Greeting | Counter | ToDo list | Reason Using JS |
+| ------------------------- | ----------------- | ------- | --------- | --------------- |
+| Has props                 |                   |         |           | ✓               |
+| No props                  |                   | ✓       | ✓         |                 |
+| Children props            | ✓                 |         |           |                 |
+| No state                  |                   |         |           | ✓               |
+| Has state                 | ✓                 | ✓       | ✓         |                 |
+| Has state with useReducer |                   | ✓       | ✓         |                 |
+| ReasonReact using ReactJS |                   |         |           | ✓               |
+| ReactJS using ReasonReact |                   |         |           | ✓               |
+| useEffect                 | ✓                 |         |           |                 |
+| Dom attribute             | ✓                 | ✓       |           | ✓               |
+| Styling                   | ✓                 | ✓       | ✓         | ✓               |
+| React.array               |                   |         | ✓         |                 |
 
 # Bundle for Production
 
