@@ -45,6 +45,7 @@ let make = () => {
   };
 
   <div>
+    <h1> {React.string("Counter with reducer")} </h1>
     <p> {React.string("Counter: " ++ string_of_int(state.count))} </p>
     <button style=CounterStyles.buttonStyle onClick=handleIncrement>
       {React.string("+1")}

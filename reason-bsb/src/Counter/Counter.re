@@ -20,6 +20,7 @@ let make = () => {
   };
 
   <div>
+    <h1> {React.string("Simple counter")} </h1>
     <p> {React.string("Counter: " ++ string_of_int(count))} </p>
     <button style=CounterStyles.buttonStyle onClick=handleIncrement>
       {React.string("+")}

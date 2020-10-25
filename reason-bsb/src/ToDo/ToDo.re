@@ -14,6 +14,7 @@ let make = () => {
   };
 
   <div>
+    <h1> {React.string("Simple ToDo list")} </h1>
     <ul>
       {React.array(
          Array.of_list(

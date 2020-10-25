@@ -20,5 +20,5 @@ let make = (~children) => {
       ReactDOMRe.Style.make(~opacity="0", ~transition="opacity 1s", ());
     };
 
-  <div style> children </div>;
+  <div style> <h1> {React.string("Bliking Greeting")} </h1> children </div>;
 };
