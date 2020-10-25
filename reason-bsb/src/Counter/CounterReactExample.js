@@ -1,7 +1,6 @@
+// Used for illustrative and comparative purposes only
 import React, { useState } from 'react'
 import { buttonStyle } from './styles/CounterStyles.bs'
-
-// Counter component using ReactJS (for illustrative proposals)
 
 function Counter() {
   const [count, setCount] = React.useState(0);

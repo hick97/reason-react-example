@@ -1,3 +1,5 @@
+// Used for illustrative and comparative purposes only
+
 interface State {
   count: number;
 }
